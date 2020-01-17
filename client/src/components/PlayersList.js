@@ -21,7 +21,7 @@ class PlayerList extends React.Component{
 
     render() {
         return(
-            <div>
+            <div >
                 <PlayerCard players={this.state.players} />
             </div>
         )

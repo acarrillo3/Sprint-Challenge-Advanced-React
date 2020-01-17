@@ -7,7 +7,7 @@ export default function PlayerCard(props){
             {
                 props.players.map(player => {
                     return (
-                        <div>
+                        <div style={{borderBottom: "2px solid orange"}}>
                             <h2>{player.name}</h2>
                             <h3>{player.country}</h3>
                         </div>
